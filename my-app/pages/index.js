@@ -185,7 +185,7 @@ export default function Home() {
       })
       onPageLoad();
     }
-  }, []);
+  });
 
   function renderBody() {
     if (!walletConnected) {
@@ -256,7 +256,7 @@ export default function Home() {
             CryptoDevs is a NFT collection for Web3 developers
           </div>
           <div>
-            {numTokensMinted} / 20 CryptoDevs NFT's have already been minted!
+            {numTokensMinted} / 20 CryptoDevs NFTs have already been minted!
           </div>
           {renderBody()}
         </div>
