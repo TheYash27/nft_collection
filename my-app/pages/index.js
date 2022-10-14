@@ -4,7 +4,6 @@ import Web3Modal from 'web3modal';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 import { NFT_CONTRACT_ADDRESS, NFT_CONTRACT_ABI } from '../constants';
-import { get } from 'cheerio/lib/api/traversing';
 
 export default function Home() {
   const [isOwner, setIsOwner] = useState(false);
